@@ -29,6 +29,13 @@ public class SafeCracker {
 		 * Your mission: use the tryCode method to crack the safe by trying all possible
 		 * combinations
 		 */		
+		boolean guessing = true;
+		int i = 0;
+		while(guessing=true) {
+			for(i=9999900;i<=9999999; i++) {
+				tryCode(i);
+		}
+		}
 
 	}
 
